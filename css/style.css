@@ -23,7 +23,7 @@ color: var(--link-color);
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 color: var(--title-text-color);
 text-decoration: none;
 }
@@ -40,7 +40,7 @@ list-style-type: none;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 color: var(--title-text-color);
 text-decoration: none;
 }
@@ -54,7 +54,7 @@ list-style: none ;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 color: var(--primaty-text-color);
 text-decoration: none;
 }
@@ -73,7 +73,7 @@ background-color: var(--bcg-heart-color);
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
 color: var(--white-color);
 }
 
@@ -89,7 +89,7 @@ color: var(--white-color);
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 color: var(--title-text-color);
 }
 
@@ -101,7 +101,7 @@ color: var(--title-text-color);
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 color: var(--primaty-text-color);
 }
 
@@ -111,7 +111,7 @@ color: var(--primaty-text-color);
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 color: var(--title-text-color);
 }
 
@@ -125,7 +125,7 @@ color: var(--title-text-color);
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.16;
 color: var(--title-text-color);
 }
 
@@ -137,7 +137,7 @@ color: var(--title-text-color);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 color: var(--title-text-color);
 }
 
@@ -145,7 +145,7 @@ color: var(--title-text-color);
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.18;
 color: var(--primaty-text-color);
 }
 
@@ -159,7 +159,7 @@ color: var(--primaty-text-color);
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 color: var(--white-color);
 text-decoration: none;
 }
@@ -168,7 +168,7 @@ text-decoration: none;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.71;
 color: var(--white-color);
 }
 
@@ -183,7 +183,7 @@ cursor: pointer;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.62;
 color: var(--title-text-color);
 background-color: var(--bcg-button-portfolio-color);
 }
@@ -201,7 +201,7 @@ background-color: var(--bcg-button-portfolio-color);
    font-style: normal;
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2;
 color: var(--title-text-color);
 }
 
@@ -209,6 +209,6 @@ color: var(--title-text-color);
    font-style: normal;
 font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 color: var(--primaty-text-color);
 }
