@@ -1,4 +1,66 @@
 :root{
    --primaty-text-color:#757575;
    --title-text-color:#212121;
+   --link-color:#2196F3;
 }
+
+/* студія */
+body{
+   font-family: 'Raleway', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   color: var(--primaty-text-color);
+}
+
+/* шапка */
+.site-nav .link.current{
+   color: var(--link-color);
+}
+
+.logo{
+   font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 31px;
+      letter-spacing: 0.03em;
+      color: var(--title-text-color);
+      text-decoration: none;
+}
+
+.logo-part{
+   color: var(--link-color);
+}
+
+.site-nav{
+   list-style-type: none;
+}
+
+.link{
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.02em;
+   color: var(--title-text-color);
+   text-decoration: none;
+}
+
+.contact{
+   list-style-type: none;
+}
+
+.contact-list{
+   list-style: none ;
+   font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: var(--primaty-text-color);
+text-decoration: none;
+}
+
+.contact-list:hover,:focus{
+   color: var(--link-color);
+}
+
+
