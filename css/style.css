@@ -2,46 +2,46 @@
    --primaty-text-color:#757575;
    --title-text-color:#212121;
    --link-color:#2196F3;
+   --white-color:#FFFFFF;
+   --bcg-heart-color:#2F303A;
 }
 
 /* студія */
 body{
-   font-family: 'Raleway', sans-serif;
-   font-family: 'Roboto', sans-serif;
-   color: var(--primaty-text-color);
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+color: var(--primaty-text-color);
 }
 
 /* шапка */
 .site-nav .link.current{
-   color: var(--link-color);
+color: var(--link-color);
 }
 
-.logo{
-   font-style: normal;
-      font-weight: 700;
-      font-size: 26px;
-      line-height: 31px;
-      letter-spacing: 0.03em;
-      color: var(--title-text-color);
-      text-decoration: none;
+.logo-h{
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+color: var(--title-text-color);
+text-decoration: none;
 }
 
 .logo-part{
-   color: var(--link-color);
+color: var(--link-color);
 }
 
 .site-nav{
-   list-style-type: none;
+list-style-type: none;
 }
 
 .link{
-   font-style: normal;
-   font-weight: 500;
-   font-size: 14px;
-   line-height: 16px;
-   letter-spacing: 0.02em;
-   color: var(--title-text-color);
-   text-decoration: none;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+color: var(--title-text-color);
+text-decoration: none;
 }
 
 .contact{
@@ -49,18 +49,124 @@ body{
 }
 
 .contact-list{
-   list-style: none ;
-   font-style: normal;
+list-style: none ;
+font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 16px;
-letter-spacing: 0.02em;
 color: var(--primaty-text-color);
 text-decoration: none;
 }
 
 .contact-list:hover,:focus{
-   color: var(--link-color);
+color: var(--link-color);
 }
 
+/* серце */
 
+.heart{
+background-color: var(--bcg-heart-color);
+}
+
+.heart-title{
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+color: var(--white-color);
+}
+
+.button{
+cursor: pointer;
+background-color: var(--link-color);
+color: var(--white-color);
+}
+
+/* особливості */
+
+.feature-title{
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+color: var(--title-text-color);
+}
+
+.feature-list{
+   list-style: none;
+}
+
+.feature-item{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: var(--primaty-text-color);
+}
+
+/* Чим ми займаємося */
+
+.work-title{
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+color: var(--title-text-color);
+}
+
+.work-list{
+   list-style: none;
+}
+
+/* Наша команда */
+
+.team-title{
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+color: var(--title-text-color);
+}
+
+.team-list{
+   list-style: none;
+}
+
+.title-list{
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: var(--title-text-color);
+}
+
+.team-item{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: var(--primaty-text-color);
+}
+
+/* футер */
+
+.page-footer{
+   background-color: var(--bcg-heart-color);
+}
+
+.logo-f{
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+color: var(--white-color);
+text-decoration: none;
+}
+
+.adress{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: var(--white-color);
+}
