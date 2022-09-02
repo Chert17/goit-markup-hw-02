@@ -49,11 +49,16 @@ line-height: 1.14;
 color: var(--title-text-color);
 text-decoration: none;
 }
-.link:hover
+.link:hover,
 .link:focus{
    color: var(--link-color);
-   background-color: var(--white-color);
+   /* background-color: var(--white-color); */
 }
+
+/* .link:hover,:focus{
+   color: var(--link-color);
+} */
+
 
 .contact{
    list-style-type: none;
@@ -92,6 +97,11 @@ color: var(--white-color);
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
+}
+
+.button:hover,
+.button:focus{
+   color: var(--white-color);
 }
 
 /* особливості */
@@ -174,11 +184,24 @@ color: var(--white-color);
 text-decoration: none;
 }
 
+.adress:hover,:focus{
+   color: var(--link-color);
+}
+
 .contact-footer{
 font-size: 14px;
 line-height: 1.71x;
 color: var(--footer-contact-color);
 text-decoration: none;
+}
+
+.logo-f:hover,
+.logo-f:focus{
+   color: var(--white-color);
+}
+
+.contact-footer:hover,:focus{
+   color: var(--link-color);
 }
 
 /* портфоліо */
@@ -202,6 +225,11 @@ background-color: var(--bcg-button-portfolio-color);
    background-color: var(--link-color);
    color:var(--white-color)
 }
+
+/* .filters-button:hover,:focus{
+   background-color: var(--link-color);
+   color: var(--white-color);
+} */
 
 .portfolio-list{
    list-style: none;
