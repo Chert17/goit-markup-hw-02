@@ -15,7 +15,7 @@ color: var(--primaty-text-color);
 }
 
 /* шапка */
-.site-nav .link.current{
+.site-nav .link.current{ 
 color: var(--link-color);
 }
 
@@ -28,24 +28,29 @@ color: var(--title-text-color);
 text-decoration: none;
 }
 
+.logo-h:focus{
+   color: var(--title-text-color);
+ } 
+
 
 .logo-part{
 color: var(--link-color);
 }
+
 
 .site-nav{
 list-style-type: none;
 }
 
 .link{
-
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 color: var(--title-text-color);
 text-decoration: none;
 }
-.link:hover,:focus{
+.link:hover
+.link:focus{
    color: var(--link-color);
    background-color: var(--white-color);
 }
@@ -55,7 +60,6 @@ text-decoration: none;
 }
 
 .contact-list{
-
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -74,7 +78,6 @@ background-color: var(--bcg-heart-color);
 }
 
 .heart-title{
-
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -86,7 +89,6 @@ text-transform: uppercase;
 cursor: pointer;
 background-color: var(--link-color);
 color: var(--white-color);
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -95,7 +97,6 @@ line-height: 1.87;
 /* особливості */
 
 .feature-title{
-
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -107,7 +108,6 @@ color: var(--title-text-color);
 }
 
 .feature-item{
-
 font-size: 14px;
 line-height: 1.71;
 color: var(--primaty-text-color);
@@ -116,7 +116,6 @@ color: var(--primaty-text-color);
 /* Чим ми займаємося */
 
 .work-title{
-
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -130,7 +129,6 @@ color: var(--title-text-color);
 /* Наша команда */
 
 .team-title{
-
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -142,7 +140,6 @@ color: var(--title-text-color);
 }
 
 .title-list{
-
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -150,7 +147,6 @@ color: var(--title-text-color);
 }
 
 .team-item{
-
 font-size: 16px;
 line-height: 1.18;
 color: var(--primaty-text-color);
@@ -164,7 +160,6 @@ color: var(--primaty-text-color);
 
 .logo-f{
 font-family: 'Raleway';
-
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -173,7 +168,6 @@ text-decoration: none;
 }
 
 .adress{
-
 font-size: 14px;
 line-height: 1.71;
 color: var(--white-color);
@@ -181,7 +175,6 @@ text-decoration: none;
 }
 
 .contact-footer{
-
 font-size: 14px;
 line-height: 1.71x;
 color: var(--footer-contact-color);
@@ -196,7 +189,6 @@ text-decoration: none;
 
 .filters-button{
 cursor: pointer;
-
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -204,9 +196,11 @@ color: var(--title-text-color);
 background-color: var(--bcg-button-portfolio-color);
 }
 
-.filters-button:hover,:focus{
+
+.filters-button:hover,
+.filters-button:focus{
    background-color: var(--link-color);
-   color: var(--white-color);
+   color:var(--white-color)
 }
 
 .portfolio-list{
@@ -227,3 +221,4 @@ font-size: 16px;
 line-height: 1.87;
 color: var(--primaty-text-color);
 }
+
