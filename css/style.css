@@ -21,13 +21,13 @@ color: var(--link-color);
 
 .logo-h{
 font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 color: var(--title-text-color);
 text-decoration: none;
 }
+
 
 .logo-part{
 color: var(--link-color);
@@ -38,12 +38,16 @@ list-style-type: none;
 }
 
 .link{
-font-style: normal;
+
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 color: var(--title-text-color);
 text-decoration: none;
+}
+.link:hover,:focus{
+   color: var(--link-color);
+   background-color: var(--white-color);
 }
 
 .contact{
@@ -51,8 +55,7 @@ text-decoration: none;
 }
 
 .contact-list{
-list-style: none ;
-font-style: normal;
+
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -71,7 +74,7 @@ background-color: var(--bcg-heart-color);
 }
 
 .heart-title{
-font-style: normal;
+
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -92,7 +95,7 @@ line-height: 1.87;
 /* особливості */
 
 .feature-title{
-font-style: normal;
+
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -113,7 +116,7 @@ color: var(--primaty-text-color);
 /* Чим ми займаємося */
 
 .work-title{
-font-style: normal;
+
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -127,7 +130,7 @@ color: var(--title-text-color);
 /* Наша команда */
 
 .team-title{
-font-style: normal;
+
 font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
@@ -139,7 +142,7 @@ color: var(--title-text-color);
 }
 
 .title-list{
-font-style: normal;
+
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -161,7 +164,7 @@ color: var(--primaty-text-color);
 
 .logo-f{
 font-family: 'Raleway';
-font-style: normal;
+
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -170,8 +173,7 @@ text-decoration: none;
 }
 
 .adress{
-font-style: normal;
-font-weight: 400;
+
 font-size: 14px;
 line-height: 1.71;
 color: var(--white-color);
@@ -179,8 +181,7 @@ text-decoration: none;
 }
 
 .contact-footer{
-font-style: normal;
-font-weight: 400;
+
 font-size: 14px;
 line-height: 1.71x;
 color: var(--footer-contact-color);
@@ -195,7 +196,7 @@ text-decoration: none;
 
 .filters-button{
 cursor: pointer;
-font-style: normal;
+
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
@@ -213,7 +214,7 @@ background-color: var(--bcg-button-portfolio-color);
 }
 
 .portfolio-title{
-   font-style: normal;
+ 
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
