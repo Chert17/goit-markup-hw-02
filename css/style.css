@@ -5,11 +5,11 @@
    --white-color:#FFFFFF;
    --bcg-heart-color:#2F303A;
    --bcg-button-portfolio-color:#F5F4FA;
+   --footer-contact-color:rgba(255, 255, 255, 0.6);
 }
 
 /* студія */
 body{
-font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
 color: var(--primaty-text-color);
 }
@@ -20,6 +20,7 @@ color: var(--link-color);
 }
 
 .logo-h{
+font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -75,12 +76,17 @@ font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 color: var(--white-color);
+text-transform: uppercase;
 }
 
 .button{
 cursor: pointer;
 background-color: var(--link-color);
 color: var(--white-color);
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
 }
 
 /* особливості */
@@ -98,8 +104,7 @@ color: var(--title-text-color);
 }
 
 .feature-item{
-font-style: normal;
-font-weight: 400;
+
 font-size: 14px;
 line-height: 1.71;
 color: var(--primaty-text-color);
@@ -142,8 +147,7 @@ color: var(--title-text-color);
 }
 
 .team-item{
-font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.18;
 color: var(--primaty-text-color);
@@ -156,6 +160,7 @@ color: var(--primaty-text-color);
 }
 
 .logo-f{
+font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
@@ -170,6 +175,16 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 color: var(--white-color);
+text-decoration: none;
+}
+
+.contact-footer{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71x;
+color: var(--footer-contact-color);
+text-decoration: none;
 }
 
 /* портфоліо */
@@ -188,7 +203,7 @@ color: var(--title-text-color);
 background-color: var(--bcg-button-portfolio-color);
 }
 
-.filters-button:active{
+.filters-button:hover,:focus{
    background-color: var(--link-color);
    color: var(--white-color);
 }
@@ -206,8 +221,7 @@ color: var(--title-text-color);
 }
 
 .portfolio-item{
-   font-style: normal;
-font-weight: 400;
+
 font-size: 16px;
 line-height: 1.87;
 color: var(--primaty-text-color);
